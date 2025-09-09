@@ -1,0 +1,10 @@
+#my-header {
+    background-color: rgb(100, 165, 0);
+    color: hsl(204, 50%, 47%);
+    padding: 80px;
+    text-align: left;
+}
+
+body {
+  background-color: hsl(259, 76%, 45%);
+}

@@ -1,0 +1,17 @@
+h1 {
+  color:red
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+#head2 {
+  background-color: aqua;
+}
+
+.colourful {
+  background-color: blue
+}
