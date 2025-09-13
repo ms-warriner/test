@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--ICS2O Unit 1-07 MDL -->
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="New webpage with MDL components">
+  <meta name="keywords" content="trh, icd2o">
+  <meta name="author" content="Ms. Warriner">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My new webpage, with MDL components</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-amber.min.css" />
+  <link rel="icon" type="image/png" href="./flag-of-Canada.png">
+</head>
+<body>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <!-- The drawer is always open in large screens. The header is always 
+             shown, even in small screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Ms. Warriner's Homework Helper</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="" style="color:gray">Home</a>
+          <a class="mdl-navigation__link" href="" style="color:gray">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">HTML5 Tutorial</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Home!</a>
+        <a class="mdl-navigation__link" href="/Unit1/1-05/cities.html">Cities</a>
+      </nav>
+    </div>
+
+    <main class="mdl-layout__content">
+      <h3>Welcome to my homework helper!</h3>
+      <br>
+      <div class="page-content">Please enter the school subject you're looking for:</div>
+      <!-- Simple Textfield -->
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="sample1">
+          <label class="mdl-textfield__label" for="sample1">School subject...</label>
+        </div>
+      </form>
+      <!-- Colored FAB button with ripple -->
+      <a
+        href="https://www.google.com/search?q=homework+help&sca_esv=cb1e697b99ad7555&source=hp&ei=GlbDaIWLEqylvr0P5KHN6A0&iflsig=AOw8s4IAAAAAaMNkKsZv3vM5pYMR3Uto3iH4Dhwdg5eJ&ved=0ahUKEwiFgMvE6dGPAxWskq8BHeRQE90Q4dUDCBo&uact=5&oq=homework+help&gs_lp=Egdnd3Mtd2l6Ig1ob21ld29yayBoZWxwMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyBBAAGAMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESOcJUABYsghwAHgAkAEAmAGEAaAB0gmqAQQxMC4zuAEDyAEA-AEBmAINoAKQCsICDhAuGIAEGLEDGNEDGMcBwgILEC4YgAQYsQMYgwHCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIIEC4YgAQY1ALCAhEQLhiABBixAxjRAxjHARjJA8ICCxAAGIAEGJIDGIoFwgIUEC4YgAQYxwEYmAUYngUYjgUYrwHCAg4QLhiABBixAxjHARivAcICCBAuGIAEGLEDwgIREC4YgAQYxwEYmAUYngUYrwHCAgUQLhiABMICCxAuGIAEGMcBGK8BmAMAkgcEMTAuM6AHiYoBsgcEMTAuM7gHkArCBwcwLjQuOC4xyAc0&sclient=gws-wiz&safe=active&ssui=on">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+          <i class="material-icons">search</i>
+        </button>
+      </a>
+    </main>
+  </div>
+</body>
+</html>
